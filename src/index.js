@@ -11,7 +11,7 @@ import { ApolloProvider } from 'react-apollo'
 import { InMemoryCache } from 'apollo-cache-inmemory'
 const API_URL = process.env.API_URL
 
-const httpLink = createHttpLink({ uri: 'https://ica-api-zxtagzmnej.now.sh/graphql' })
+const httpLink = createHttpLink({ uri: 'https://build-afhoxzknyb.now.sh/graphql' })
 
 const client = new ApolloClient({
   link: httpLink,
